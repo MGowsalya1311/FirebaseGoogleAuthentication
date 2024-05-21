@@ -38,8 +38,6 @@ public class SecondActivity extends AppCompatActivity {
         tvName = findViewById(R.id.tv_name);
         btLogout = findViewById(R.id.bt_logout);
 
-        Toast.makeText(getApplicationContext(), " successful", Toast.LENGTH_SHORT).show();
-
         // Initialize firebase auth
         firebaseAuth = FirebaseAuth.getInstance();
 
